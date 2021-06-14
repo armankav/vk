@@ -1,0 +1,163 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+
+
+}
+h1{
+margin: 20px auto 0 auto;
+font-family: 'Sacramento', cursive;
+
+font-size: 90px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #340c5a;
+  border: 10px;
+}
+
+.top-container{
+  background-color: #ffeedb;
+  padding-top: 100px;
+
+  }
+
+.middle-container{
+  background-color: #ccffff;
+
+  position: relative;
+
+}
+
+.bottom-container
+{
+  background-color: yellow;
+  padding: 50px 0 20px;
+
+}
+
+.dev
+{
+  text-decoration: underline;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+}
+.top-cloud
+{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+p
+{
+
+font-family: serif;
+font-size: 2rem;
+font-weight: normal;
+margin-top: 20px;
+}
+
+.arman{
+float: left;
+
+}
+
+.skill-row{
+width: 50%;
+margin: 20px auto 100px;
+text-align: left;
+line-height: 2;
+padding-bottom: 50px;
+}
+
+.c{
+  width: 25%;
+  float: left;
+  padding-right: 20px;
+}
+
+.video
+{
+  float: right;
+}
+
+.cplus
+{
+  float:right;
+}
+
+.c-program-description
+{
+clear: left;
+}
+
+.profile
+{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.footer-container
+{
+  padding: 20px;
+background-color: #ffe6ee;
+  }
+
+.footer-link
+{
+line-height: 2;
+font-family: 'Montserrat', sans-serif;
+color: #340c5a;
+text-decoration: none;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  padding: 20px;
+}
+
+.my-skills
+{
+background-color: #bbff99;
+}
+
+.btn {
+  background: #00eaff;
+  background-image: -webkit-linear-gradient(top, #00eaff, #234459);
+  background-image: -moz-linear-gradient(top, #00eaff, #234459);
+  background-image: -ms-linear-gradient(top, #00eaff, #234459);
+  background-image: -o-linear-gradient(top, #00eaff, #234459);
+  background-image: linear-gradient(to bottom, #00eaff, #234459);
+  -webkit-border-radius: 21;
+  -moz-border-radius: 21;
+  border-radius: 21px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #3498db);
+  background-image: -moz-linear-gradient(top, #ff0000, #3498db);
+  background-image: -ms-linear-gradient(top, #ff0000, #3498db);
+  background-image: -o-linear-gradient(top, #ff0000, #3498db);
+  background-image: linear-gradient(to bottom, #ff0000, #3498db);
+  text-decoration: none;
+}
